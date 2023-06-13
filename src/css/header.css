@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+
+}
+
+header .logo img {
+    margin-top: 5rem;
+    width: auto;
+    height: 300px;
+}
+
+#hamburguer-menu {
+  
+    background-color: #fff;
+    cursor: pointer;
+    width: 100%;
+   
+}
+
+#hamburguer-menu ul li {
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif; 
+    display: inline;
+    margin-left: 3rem;
+ 
+}
+
+#hamburguer-menu a {
+    color: #333;
+}
+
+#hamburguer-menu a:hover {
+    background: #a57c00;
+}
+
+/*# sourceMappingURL=style.css.map */
