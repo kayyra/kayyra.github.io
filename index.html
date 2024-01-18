@@ -4,51 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta author="Ana Rodríguez Pérez">
-    <title>Hackaton CountDown</title>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
-    <!-- Styles -->
-    <link rel="stylesheet" href="css/count.css">
+    <title>Calculador de Combustible</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <main>
-        <section class="container">
-            <h1>Hackaton CountDown</h1>
-            <div class="countdown">
-                <div>
-                    <p id="days">00</p>
-                    <span>Days</span>
-                </div>
-                <div>
-                    <p id="hours">00</p>
-                    <span>Hours</span>
-                </div>
-                <div>
-                    <p id="minutes">00</p>
-                    <span>Minutes</span>
-                </div>
-                <div>
-                    <p id="seconds">00</p>
-                    <span>Seconds</span>
-                </div>
-            </div>
-        </section>
-        <section class="message">
-            <h2>
-                ¡Welcome Hackaton!👩‍💻
-            </h2>
-        </section>
-    </main>
-    <footer>
-        <strong id="footer">&copy; Created by Ana Rodriguez Pérez</strong>
-    </footer>
-    <script src="js/count.js"></script>
+    <h1>&#9981; Calcular Combustible</h1>
+    <div class="card">
+        <p>Calcula cuantos litros vas a necesitar</p>
+        <p>Kilómetros: <input type="number" id="textoKm" value="0"></p>
+        <p><button onclick="calcularLitros()">Calcula el combustible</button></p>
+        <p id="textoResultado"></p>
+    </div>
+
+
+
+    <script src="js/app.js"></script>
 </body>
-
-
 
 </html>
